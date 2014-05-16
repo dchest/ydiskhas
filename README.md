@@ -50,3 +50,12 @@ Step 3. Run `ydiskhas` on both files:
 
 
 ...and discover that Alice doesn't love Bob :-(
+
+Alternate Step 3. Run `./ydiskhas.sh` on both files:
+
+    $ ./ydiskhas.sh form-yes.txt YourYDiskLogin:YourPassword
+    File does not exist
+
+    $ ./ydiskhas.sh form-no.txt YourYDiskLogin:YourPassword
+    File exists. Removing...
+
