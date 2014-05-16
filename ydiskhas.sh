@@ -1,5 +1,15 @@
 #!/bin/sh
 
+#    __ __  ___    ____  _____ __  _  __ __   ____  _____
+#    |  T  T|   \  l    j/ ___/|  l/ ]|  T  T /    T/ ___/
+#    |  |  ||    \  |  T(   \_ |  ' / |  l  |Y  o  (   \_
+#    |  ~  ||  D  Y |  | \__  T|    \ |  _  ||     |\__  T
+#    l___, ||     | |  | /  \ ||     Y|  |  ||  _  |/  \ |
+#    |     !|     | j  l \    ||  .  ||  |  ||  |  |\    |
+#    l____/ l_____j|____j \___jl__j\_jl__j__jl__j__j \___j
+#    v0.666
+#
+
 which curl >/dev/null || { echo "curl not found" >&2; exit 126; }
 AUTH=$2; [ -z $AUTH ] && { echo "usage: $0 filename login:[password]" >&2; exit 10; }
 

@@ -1,5 +1,12 @@
-YDiskHas
-========
+     __ __  ___    ____  _____ __  _  __ __   ____  _____
+     |  T  T|   \  l    j/ ___/|  l/ ]|  T  T /    T/ ___/
+     |  |  ||    \  |  T(   \_ |  ' / |  l  |Y  o  (   \_
+     |  ~  ||  D  Y |  | \__  T|    \ |  _  ||     |\__  T
+     l___, ||     | |  | /  \ ||     Y|  |  ||  _  |/  \ |
+     |     !|     | j  l \    ||  .  ||  |  ||  |  |\    |
+     l____/ l_____j|____j \___jl__j\_jl__j__jl__j__j \___j
+     v0.666
+
 
 A little utility that can tell if a given file has been already uploaded by
 someone to Yandex.Disk by using using its [API's deduplication
