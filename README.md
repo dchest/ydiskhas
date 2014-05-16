@@ -11,7 +11,7 @@ Potential uses are described, for example, here:
 
 One example:
 
-Step 1. Send a form to Alice and ask her to fill it and save to Yandex.Disk.
+Step 1. Send a form to Alice and ask her to fill it and save it to her Yandex.Disk.
 
 *form.txt*:
 
