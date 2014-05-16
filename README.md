@@ -31,7 +31,7 @@ Step 2. Generate two files:
 
 *form-no.txt*:
 
-    Alice, you love Bob?  
+    Alice, do you love Bob?
 
     [ ] Yes  [x] No
 
