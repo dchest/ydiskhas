@@ -2,16 +2,17 @@ YDiskHas
 ========
 
 A little utility that can tell if a given file has been already uploaded by
-someone to Yandex.Disk by using using its [API's deduplication check](http://api.yandex.ru/disk/doc/dg/reference/put.xml).
+someone to Yandex.Disk by using using its [API's deduplication
+check](http://api.yandex.com/disk/doc/dg/reference/put.xml).
 
-Installation (Go 1.2): `$ go get github.com/dchest/ydiskhas`
-
-Potential uses are described, for example, here:
-["Side channels in cloud services, the case of deduplication in cloud storage"](http://www.pinkas.net/PAPERS/hps.pdf).
+Potential uses are described, for example, here: ["Side channels in cloud
+services, the case of deduplication in cloud
+storage"](http://www.pinkas.net/PAPERS/hps.pdf).
 
 One example:
 
-Step 1. Send a form to Alice and ask her to fill it and save it to her Yandex.Disk.
+Step 1. Send a form to Alice and ask her to fill it and save it to her
+Yandex.Disk.
 
 *form.txt*:
 
