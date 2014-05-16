@@ -9,7 +9,7 @@
 
 
 A little utility that can tell if a given file has been already uploaded by
-someone to Yandex.Disk by using using its [API's deduplication
+someone to Yandex.Disk by using its [API's deduplication
 check](http://api.yandex.com/disk/doc/dg/reference/put.xml).
 
 Potential uses are described, for example, here: ["Side channels in cloud
