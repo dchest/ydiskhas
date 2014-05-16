@@ -35,27 +35,18 @@ Step 2. Generate two files:
 
     [ ] Yes  [x] No
 
-Step 3. Run `ydiskhas` on both files:
+Step 3. Run `./ydiskhas.sh` on both files:
 
-    $ ydiskhas -login=YourYDiskLogin -password=YourPassword form-yes.txt
+    $ ./ydiskhas.sh form-yes.txt YourYDiskLogin:YourPassword
 
     (╯°□°)╯︵ ┻━┻
     File does not exist on Yandex.Disk.
 
 
-    $ ydiskhas -login=YourYDiskLogin -password=YourPassword form-no.txt
+    $ ./ydiskhas.sh form-no.txt YourYDiskLogin:YourPassword
 
     ˙ ͜ʟ˙
     FILE EXISTS on Yandex.Disk!
 
 
 ...and discover that Alice doesn't love Bob :-(
-
-Alternate Step 3. Run `./ydiskhas.sh` on both files:
-
-    $ ./ydiskhas.sh form-yes.txt YourYDiskLogin:YourPassword
-    File does not exist
-
-    $ ./ydiskhas.sh form-no.txt YourYDiskLogin:YourPassword
-    File exists. Removing...
-
