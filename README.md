@@ -35,15 +35,15 @@ Step 2. Generate two files:
 
     [ ] Yes  [x] No
 
-Step 3. Run `yadiskhas` on both files:
+Step 3. Run `ydiskhas` on both files:
 
-    $ yadiskhas -login=YourYDiskLogin -password=YourPassword form-yes.txt
+    $ ydiskhas -login=YourYDiskLogin -password=YourPassword form-yes.txt
 
     (╯°□°)╯︵ ┻━┻
     File does not exist on Yandex.Disk.
 
 
-    $ yadiskhas -login=YourYDiskLogin -password=YourPassword form-no.txt
+    $ ydiskhas -login=YourYDiskLogin -password=YourPassword form-no.txt
 
     ˙ ͜ʟ˙
     FILE EXISTS on Yandex.Disk!
