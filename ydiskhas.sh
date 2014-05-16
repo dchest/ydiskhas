@@ -10,7 +10,7 @@
 #    v0.666
 #
 
-which curl >/dev/null || { echo "curl not found" >&2; exit 126; }
+command -v curl >/dev/null 2>&1 || { echo "curl not found" >&2; exit 126; }
 AUTH=$2; [ -z $AUTH ] && { echo "usage: $0 filename login:[password]" >&2; exit 10; }
 
 FILE=$1; SIZE=`stat -c%s "$FILE" 2>/dev/null || stat -f%z "$FILE" 2>/dev/null` || { echo "Could not determine size of $FILE!" >&2; exit 11; }
