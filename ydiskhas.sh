@@ -23,6 +23,10 @@ SHA256=`shasum -a 256 $FILE | sed 's/ .*$//'`;
 URL="https://webdav.yandex.ru/%3Fexists%3F$SHA256"
 STATUS=`echo -n | curl -T- -u "$AUTH" -X PUT $URL -H "Content-Range: bytes 0-0/$SIZE" -H Etag:$MD5 -H Sha256:$SHA256 -s -w "\n%{http_code}\n" | tail -1`
 
-test $STATUS = 201 || { echo "\n(╯°□°)╯︵ ┻━┻\nFile does not exist on Yandex.disk.\n"; exit 1; }
-echo "\n˙ ͜ʟ˙\nFILE EXISTS on Yandex.Disk!\n"
+case $STATUS in
+	202) echo "\n(╯°□°)╯︵ ┻━┻\nFile does not exist on Yandex.disk.\n"; exit 1;;
+	201) echo "\n˙ ͜ʟ˙\nFILE EXISTS on Yandex.Disk!\n" ;;
+	*) echo "\nಠ_ಠ\nUnexpected response: $STATUS\n"; exit 2;;
+esac
+
 curl -u "$AUTH" -X DELETE $URL; exit 0
