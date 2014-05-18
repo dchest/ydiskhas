@@ -62,4 +62,5 @@ Step 3. Run `./ydiskhas.sh` on both files:
 
 ---
 
-Shell implementation mostly [written](https://github.com/dchest/ydiskhas/pull/1) by @stolen.
+Shell implementation mostly [written](https://github.com/dchest/ydiskhas/pull/1)
+by [@stolen](https://github.com/stolen).
