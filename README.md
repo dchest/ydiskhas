@@ -58,3 +58,8 @@ Step 3. Run `./ydiskhas.sh` on both files:
 
 
 ...and discover that Alice doesn't love Bob :-(
+
+
+---
+
+Shell implementation mostly [written](https://github.com/dchest/ydiskhas/pull/1) by @stolen.
